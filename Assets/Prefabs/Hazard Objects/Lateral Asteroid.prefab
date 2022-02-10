@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &7430611214034895230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2616680021520735942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebacf0411846de4d9f5c9c4e3c6487f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateValue: {x: 0, y: -10, z: -25}
+--- !u!114 &7801659506077942194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2616680021520735942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86303ab198aa7ab409f393ce124fb105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 0
+  speed: 5
+  distance: 5
+--- !u!1001 &7179539047907818828
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5184355809459282826, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_Name
+      value: Lateral Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184355809459282831, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184355809459282831, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184355809459282831, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184355809459282831, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184355809459282831, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184355809459282831, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184355809459282831, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184355809459282831, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184355809459282831, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184355809459282831, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184355809459282831, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+--- !u!1 &2616680021520735942 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5184355809459282826, guid: fb614601cb6d75c47b56c37923247187, type: 3}
+  m_PrefabInstance: {fileID: 7179539047907818828}
+  m_PrefabAsset: {fileID: 0}
